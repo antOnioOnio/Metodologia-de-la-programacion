@@ -1,0 +1,15 @@
+ Aclaraciones sobre los archivos de el proyecto Reversi versión 2.
+ 
+ Carpetas y archivos tipo CMake. Necesarios para la generación del proyecto. Evitamos el uso de makefile.
+ Archivos de cabecera del proyecto: Todos los archivos terminados en .h
+ Archivos fuente: Los arhicvos terminados en .cpp
+ 
+ Se incluye un logo de la UGR utilizado para generar la documentación via doxygen.
+ Se incluye un footer.html también para el pie de página de la documentación de doxygen.
+
+ - Archivo ReversitheGame es un archivo con la configuración de la documentación. Es un Doxyfile.
+ - Ejecute el comando doxygen ReversitheGame y se autogenerara una carpeta doc, 
+    con una subcarpeta HTML, abra en su navegador el archivo index.html para ver un
+    resumen del proyecto con doxygen.
+    
+    

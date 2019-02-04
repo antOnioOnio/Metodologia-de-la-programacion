@@ -1,0 +1,25 @@
+#MP-TABLERO-REVERSI-1.0
+% Este tablero tiene 3 fichas por turno, lo que necesita de
+% un estado inicial donde haya muchas alternativas para que el
+% primer jugador no termine la partida directamente
+
+10 10
+0 0 0 0 0 0 0 0 0 0
+0 0 1 2 0 0 2 1 0 0
+0 0 2 1 0 0 1 2 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 1 2 1 2 1 2 0 0
+0 0 2 1 2 1 2 1 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 1 2 0 0 2 1 0 0
+0 0 2 1 0 0 1 2 0 0
+0 0 0 0 0 0 0 0 0 0
+
+% Turno
+1
+% Fichas que restan por poner. En principio, las mismas que el máximo
+3
+% Máximo de fichas por turno
+3
+% Si la partida está finalizada. Lógicamente, no.
+0
